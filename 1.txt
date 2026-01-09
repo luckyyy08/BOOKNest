@@ -1,0 +1,11 @@
+🚀 Extra Features You Could Add
+
+Dark Mode Toggle 🌙
+
+Blog Pagination (instead of one long blog page).
+
+Book Ratings System (users can give stars).
+
+Loading Animation while switching between pages.
+
+Back to Top Button for long pages.
