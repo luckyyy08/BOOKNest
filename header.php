@@ -40,6 +40,7 @@
     <!-- <a href="wishlist.html" class="fas fa-heart"></a>
     <a href="cart.php" class="fas fa-shopping-cart"></a> -->
 </div>
+
     </header>
     <!-- header section ends -->
      </body>

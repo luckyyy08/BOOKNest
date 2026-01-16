@@ -1,0 +1,116 @@
+/* Profile Dashboard Styling */
+.profile-dashboard {
+    padding: 5rem 9%;
+    background-color: #f8f9fa;
+    min-height: 70vh;
+}
+
+.profile-container {
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+/* Main Card Styling */
+.main-card {
+    flex: 1 1 50rem;
+    background: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+    overflow: hidden;
+}
+
+.card-header {
+    background: var(--primary); /* */
+    padding: 2rem;
+    color: #fff;
+}
+
+.card-header h2 {
+    font-size: 2.2rem;
+}
+
+.card-body {
+    padding: 3rem;
+}
+
+.detail-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 0;
+    border-bottom: .1rem solid #eee;
+    font-size: 1.8rem;
+}
+
+.detail-row .label {
+    font-weight: 600;
+    color: var(--light-color);
+}
+
+.detail-row .value {
+    color: var(--black);
+}
+
+.status-badge {
+    background: #d4edda;
+    color: #155724;
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    font-size: 1.4rem;
+}
+
+/* Sidebar Menu Styling */
+.sidebar-menu {
+    flex: 1 1 30rem;
+    background: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+    padding: 2rem;
+}
+
+.sidebar-menu h3 {
+    font-size: 2rem;
+    padding-bottom: 1.5rem;
+    border-bottom: .2rem solid var(--accent);
+    margin-bottom: 1rem;
+    color: var(--black);
+}
+
+.sidebar-menu nav a {
+    display: block;
+    padding: 1.5rem;
+    font-size: 1.7rem;
+    color: var(--black);
+    border-radius: .5rem;
+    transition: .3s;
+}
+
+.sidebar-menu nav a i {
+    margin-right: 1.5rem;
+    color: var(--accent);
+}
+
+.sidebar-menu nav a:hover, 
+.sidebar-menu nav a.active {
+    background: #f0f0f0;
+    color: var(--accent);
+    padding-left: 2rem;
+}
+
+.sidebar-menu nav a.logout {
+    margin-top: 2rem;
+    color: #e74c3c;
+    border-top: .1rem solid #eee;
+}
+
+.sidebar-menu nav a.logout:hover {
+    background: #fff5f5;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .profile-dashboard {
+        padding: 2rem;
+    }
+}
