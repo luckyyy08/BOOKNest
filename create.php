@@ -63,7 +63,7 @@
 
         <input type="submit" value="Register" name="register" class="btn">
         <a class="btn0" href="loging.php">
-            <span><p>Existing User? Log in</p></span>
+            <span>Existing User? Log in</span>
         </a>
 
         
