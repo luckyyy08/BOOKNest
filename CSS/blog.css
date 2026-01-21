@@ -96,7 +96,7 @@ section{
     
 }
 
-.btn:hover{
+.btn .btn0:hover{
     background:var(--primary);
 }
 
