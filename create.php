@@ -64,7 +64,7 @@
         <input type="submit" value="Register" name="register" class="btn">
          <input type="submit" value="Existing User? Log in" name="Login" class="btn0">
         
-        <p class="form-subtitle">Already registered? <a href="loging.php">Login.</a></p>
+        
     </form>
 </div>
     </section>
